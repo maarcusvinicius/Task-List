@@ -1,8 +1,8 @@
 :root{
-    --dark: #374151;
-    --darker: #1f2937;
-    --darkest: #111827;
-    --gray: #6B7280;
+    --dark: #292a2d;
+    --darker: #35363a;
+    --darkest: #35363a;
+    --gray: #5f5f5f;
     --light: #EEE;
     --pink: #EC4899;
     --purple: #8B5CF6;
@@ -106,6 +106,10 @@ main {
     padding: 1rem;
     border-radius: 1rem;
     margin-bottom: 1rem;
+}
+
+#tasks .task .content {
+    flex: 1 1 0%;
 }
 
 #tasks .task .content .text {
